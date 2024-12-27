@@ -3,7 +3,7 @@ import DataContext from '../context/dataContext';
 
 const Quiz = () => {
     const { showQuiz, question, quizs, checkAnswer, correctAnswer,
-            selectedAnswer,questionIndex, nextQuestion, showTheResult }  = useContext(DataContext);
+        selectedAnswer, questionIndex, nextQuestion, showTheResult } = useContext(DataContext);
 
     return (
         <section className="bg-dark text-white" style={{ display: `${showQuiz ? 'block' : 'none'}` }}>
